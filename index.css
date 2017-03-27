@@ -1,6 +1,32 @@
+.logo {
+	width: 107px;
+	height: 21px;
+}
+
+
+
+.navbar-default {
+	background-color: transparent !important;
+	border-bottom: 1px solid white !important;
+
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: transparent !important;
+}
+
+.navbar-toggle:hover {
+
+}
+
+.head-list {
+	background-color: white;
+}
+
 .banner {
-	margin-top: -20px;
+	margin-top: -75px;
 	height: 400px;
+	z-index: -1;
 	position: absolute;
 }
 
@@ -101,3 +127,37 @@
 	height: 40px;
 	vertical-align: middle;
 }
+
+.bottom-bg {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+	background-image: url('img/bg@2x.jpg');
+		font-size: 15px;
+	color: #adb6bc;
+	text-align: center;
+}
+
+.bottom-logo {
+	align-items: center;
+	width: 110px;
+	height: 144px;
+	margin: auto auto;
+
+}
+
+.bottom-text {
+
+}
+
+.bottom-bg div {
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+
